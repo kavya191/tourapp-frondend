@@ -1,0 +1,84 @@
+
+.loginform {
+    background-color: #253f7b
+}
+
+.login__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-image: url('https://i.postimg.cc/0jqJTgwT/pexels-maxime-francis-2246476.jpg');
+  background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 100vh;
+
+}
+
+.login__container {
+
+background: rgba(124, 169, 186, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(6.5px);
+border: 1px solid rgba(124, 169, 186, 0.31);
+    border-radius: 10px;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.login_left_section {
+
+    width: 50%;
+    height: 500px;
+}
+
+.login_right_section {
+    width: 50%;
+    height: 80vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .login__container {
+       flex-direction: column;
+       width: 100%;
+    
+       
+
+    
+    }
+    .login_left_section {
+
+        width: 100%;
+     
+    }
+
+    .login_right_section {
+        width: 100%;
+        margin-top: 30px;
+        
+    
+    }
+    .login__wrapper {
+        margin-top: 78px;
+        margin-bottom: 83px;
+        height: 100vh;
+    
+    }
+    
+}

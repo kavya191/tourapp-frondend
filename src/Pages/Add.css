@@ -1,0 +1,27 @@
+.add_form_head{
+    background-color: rgb(242, 245, 248);
+}
+.container__wrapper{
+    margin-top: 90px;
+    margin-bottom: 38px;
+    width: 700px;
+}
+@media screen and (max-width: 600px) {
+    .admission_school{
+        display: flex;
+        justify-content: center;
+    }
+
+.label__style{
+    font-size: 11px;
+}
+.admission_schoolimag{
+   
+    font-size: 75px;
+   
+}
+.admission_schoolimage{
+    /* padding: 200px; */
+    font-size: 55px;
+}
+}

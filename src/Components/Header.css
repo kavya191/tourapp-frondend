@@ -1,0 +1,14 @@
+.nav_bar{
+    width: 100%;
+}
+/* .nav_head{
+    padding-right: 3rem;
+    color: #02656A;
+     text-decoration: none;
+} */
+@media only screen and (max-width: 600px) and (min-width: 250px)  {
+    .nav_bar{
+        width: 100%;
+    }
+    
+}

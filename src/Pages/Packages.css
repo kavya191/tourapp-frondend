@@ -1,0 +1,39 @@
+.service_page{
+    /* background-image: url("https://i.postimg.cc/SNPwCwhz/pexels-ann-h-1888031-removebg-preview-2.png"); */
+    background-position: center;
+    background-image: url("https://i.postimg.cc/DZMdxv3Z/pexels-piccinng-3075993.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card__style{
+   width: 100%;
+   display: flex;
+   /* justify-content: center; */
+   justify-content: space-evenly;
+   margin-bottom: 60px;
+   margin-top: 30px;
+   flex-wrap: wrap;
+   
+}
+.heading{
+   font-size: 7rem;
+   padding:6rem ;
+  
+}
+.imgcard1{
+   width: 25rem;
+   margin-bottom: 5rem;
+   height: 740px;
+}
+@media screen and (max-width: 600px) {
+   .heading{
+       font-size: 2rem;
+   }
+   .imgcard1{
+       width: 22rem;
+   }
+}

@@ -1,0 +1,16 @@
+.blog_page{
+    background-image: url('https://i.postimg.cc/xjFnRFMY/pexels-francesco-ungaro-1525041-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.heading{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.zoom{
+    width: 100%;
+}

@@ -1,0 +1,108 @@
+.main_div{
+    background-position: center;
+     /* background-image: url("https://i.postimg.cc/DZMdxv3Z/pexels-piccinng-3075993.jpg"); */
+     background-size: cover;
+     width: 100%;
+     background-repeat: no-repeat;
+     height: 600px;
+}
+.left_div{
+    width: 60%;
+    
+    
+}
+.right_div{
+    width: 40%;
+    /* background-color: red; */
+    min-height:100vh ;
+    position: relative;
+}
+.main_head{
+    display: flex;
+}
+
+.child_div{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.booking_div{
+    position: absolute;
+    width: 60%;
+    height: 800px;
+    background-color: rgb(147, 147, 151);
+    align-items: center;
+    border-radius: 0.5rem;
+    top: -69px;
+    left: 10%;
+    background: rgba( 171, 165, 165, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/* .single_head{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(196,200,204,1) 3%);
+} */
+.input_form{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    
+    
+}
+.contact_div{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    background-image: url("https://i.postimg.cc/cCps2P0R/pexels-mustafa-ezz-590697.jpg");
+    /* background: rgba( 171, 165, 165, 0.05 ); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 25.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media screen and (max-width: 600px) {
+    .main_head{
+        flex-direction: column;
+
+    }
+    .left_div{
+        width: 100%;
+        
+        
+    }
+    .right_div{
+        width: 100%;
+       min-height: 115vh;
+    }
+    .child_div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .booking_div{
+        position: absolute;
+        width: 86%;
+        /* height: 500px; */
+        background-color: rgb(147, 147, 151);
+        align-items: center;
+        border-radius: 0.5rem;
+        top: -59px;
+    }
+    .contact_div {
+  
+        /* bottom: 11%;
+        left: 1%;
+        height: 357px; */
+        display: none;
+    }
+}
