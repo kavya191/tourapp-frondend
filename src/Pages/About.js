@@ -36,16 +36,16 @@ function About() {
       <h1 className=' d-flex justify-content-center align-items-center pt-5 fs-1 fw-bold ' >Meet The Team</h1>
       {/* About team */}
       <div className="card__style ">
-      <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className=' about_card mb-3'>
+      <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className=' mb-3'>
       <Card.Img variant="top" src="https://i.postimg.cc/9QpyQktN/Whats-App-Image-2023-11-18-at-9-14-02-PM.jpg" height="300px"  />
       <Card.Body>
         <Card.Title>ALAN COOPER</Card.Title>
-        <p>Vice President</p>
+        <p>Manager</p>
        
       </Card.Body>
     </Card>
 
-        <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className='mb-3'>
+        <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className='mb-3 '>
       <Card.Img variant="top" src="https://i.postimg.cc/VLJdRwCY/personnel-5-550x500.jpg" height="300px"  />
       <Card.Body>
         <Card.Title>JOHN SMITHY</Card.Title>
@@ -66,11 +66,11 @@ function About() {
       </div>
       {/*  */}
       <div className="card__style">
-      <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className='mb-5'>
+      <Card style={{ width: '18rem' }} data-aos="zoom-in-up" data-aos-duration="3000" className='mb-3'>
       <Card.Img variant="top" src="https://i.postimg.cc/KYBT52CK/personnel-3-550x500.jpg" height="300px"  />
       <Card.Body>
-        <Card.Title>ALAN COOPER</Card.Title>
-        <p>Vice President</p>
+        <Card.Title>ALEX GEORGE</Card.Title>
+        <p>Team Manager</p>
        
       </Card.Body>
     </Card>

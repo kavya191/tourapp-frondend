@@ -7,6 +7,7 @@ function LoginContext({children}) {
     const [loginData,setLoginData]=useState(false)
     return (
       <div>
+        
           <adminlogined.Provider value={{loginData,setLoginData}}>
           {children}
           </adminlogined.Provider>

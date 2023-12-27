@@ -96,15 +96,16 @@ function Add() {
         }
       };
   return (
-    <div className='add_form_head'>
-    <div>
-      <h1 className='d-flex justify-content-center' style={{color:"#02656A"}}>Add Destinations</h1>
+    <div className='add_form_head '>
+    <div >
+      <h1 className='d-flex justify-content-center pt-5' style={{color:"#02656A"}}>Add Destinations</h1>
                 <Container className='container__wrapper'>
                     <form>
                         <Row>
                             <Col>
                                 <Form.Label className='label__style' htmlFor="inputPassword5">Name of Destination</Form.Label>
                                 <Form.Control
+                                className='formInput'
                                 name='place'
                                 onChange={(e)=>getInputs(e)}
                                     type="text"
@@ -113,6 +114,7 @@ function Add() {
                                 />
                                 <Form.Label  className='label__style' htmlFor="inputPassword5">Description </Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>getInputs(e)}
                                 name='description'
                                     type="textarea"
@@ -122,6 +124,7 @@ function Add() {
                                 />
                                   <Form.Label  className='label__style' htmlFor="inputPassword5">Maximum People</Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>getInputs(e)}
                                     type="text"
                                     name='num'
@@ -130,6 +133,7 @@ function Add() {
                                 />
                                  <Form.Label  className='label__style' htmlFor="inputPassword5">Price</Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>getInputs(e)}
                                     type="text"
                                     name='rate'
@@ -138,6 +142,7 @@ function Add() {
                                 />
                                   <Form.Label  className='label__style' htmlFor="inputPassword5">Start Date</Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>getInputs(e)}
                                 name='sdate'
                                     type="date"
@@ -146,6 +151,7 @@ function Add() {
                                 />
                                    <Form.Label  className='label__style' htmlFor="inputPassword5">End Date</Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>getInputs(e)}
                                 name='edate'
                                     type="date"
@@ -154,6 +160,7 @@ function Add() {
                                 />
                                    <Form.Label  className='label__style' htmlFor="inputPassword5">Image</Form.Label>
                                 <Form.Control
+                                 className='formInput'
                                 onChange={(e)=>choooseImage(e)}
                                 name='profile'
                                     type="file"
@@ -161,57 +168,12 @@ function Add() {
                                     aria-describedby="passwordHelpBlock"
                                 />
                             </Col>
-                            {/* <Col>
-                            <Form.Label  className='label__style' htmlFor="inputPassword5">Gender:</Form.Label>
-                            <div>
-                                <input type="radio"
-                                name="gendername"
-                                value={"Male"}
-                                id="gender"/>
-                                <label htmlFor="gender">Male </label>
-                                <input type="radio"
-                                name="gendername"
-                                value={"Female"}
-                                id="genderf"/>
-                                <label htmlFor="genderf">Female</label>
-                            </div>
-                               
-                                 <Form.Label  className='label__style mt-2' htmlFor="inputPassword5">Phone</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="inputPassword5"
-                                    aria-describedby="passwordHelpBlock"
-                                />
-                                 <Form.Label htmlFor="inputPassword5">Occupation of Guardian</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="inputPassword5"
-                                    aria-describedby="passwordHelpBlock"
-                                />
-                                  <Form.Label  className='label__style' htmlFor="inputPassword5">Standard when leaving</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="inputPassword5"
-                                    aria-describedby="passwordHelpBlock"
-                                />
-                                   <Form.Label  className='label__style' htmlFor="inputPassword5">Date of Birth</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="inputPassword5"
-                                    aria-describedby="passwordHelpBlock"
-                                />
-                                   <Form.Label  className='label__style' htmlFor="inputPassword5">Nationality</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="inputPassword5"
-                                    aria-describedby="passwordHelpBlock"
-                                />
-                            </Col> */}
+                           
                         </Row>
 
-                        <Row>
-                            <button className='btn  mb-4 mt-4 text-white' onClick={handleData} style={{backgroundColor:"#02656A"}}>Submit</button>
-                        </Row>
+                        <div className=' pb-4' >
+                            <button className='btn mb-4 mt-4 text-white d-flex justify-content-center align-items-center ' onClick={handleData} style={{backgroundColor:"#02656A"}}>Add</button>
+                        </div>
                     </form>
                 </Container>
             </div>

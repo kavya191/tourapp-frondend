@@ -19,11 +19,15 @@
     color: white;
     padding-top: 3rem;
 }
+.phead{
+    font-size: 1rem;
+}
+
 .head1{
     color: white;
     font-size: 2rem;
     text-align: center;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 .head{
     color:#24555C;
@@ -61,6 +65,12 @@
     }
     .imgcard{
         width: 23rem;
+    }
+    .head1{
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        /* padding-top: 2rem; */
     }
   }
   

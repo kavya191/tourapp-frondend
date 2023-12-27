@@ -23,7 +23,7 @@ const Home = () => {
               <h3 className="heading">
                 EXPLORE NEW ADVENTURES
               </h3>
-              <p >
+              <p className="head1">
                 Adventure awaits. Go find it! Life is not meant to be lived in
                 one place.
               </p>
@@ -53,7 +53,7 @@ const Home = () => {
                 className="heading">
                 TRAVEL MORE, WORRY LESS
               </h3>
-              <p>
+              <p className="head1">
                 The world is yours to explore. Collect moments, not things.
               </p>
               <Link to={"/about"}>
@@ -81,7 +81,7 @@ const Home = () => {
               <h3 className="heading">
             Favourite Destinations
               </h3>
-              <p >
+              <p className="head1" >
                 The best things happen outside of our comfort zones. Don't be a
                 tourist, be a traveler.
               </p>
@@ -168,7 +168,7 @@ const Home = () => {
         <Image
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
           src="https://i.postimg.cc/gJW05C6w/pexels-gantas-vai-iul-nas-1891882.jpg"
           width="300px"
           height="300px"
@@ -179,7 +179,7 @@ const Home = () => {
         <Image
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
           src="https://i.postimg.cc/zGqZsqdY/pexels-kyle-loftus-2734521.jpg"
           width="300px"
           height="300px"
